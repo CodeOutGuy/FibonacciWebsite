@@ -1,0 +1,162 @@
+/* Ogólne ustawienia strony */
+
+body {
+  background-color: #ecf0f1;
+}
+
+/* Header przyklejony do góry strony */
+
+#header ul {
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #34495e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#header li {
+  float: right;
+}
+
+#header a {
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  font-size: 20px;
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2c3e50;
+}
+
+/* Wstęp */
+
+#wstep {
+  margin-top:68px;
+  border-radius: 10px;
+  background-color: #7f8c8d;
+}
+
+#wstep p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Podstawy tutaj */
+
+#podstawy {
+  border-radius: 10px;
+  background-color: #f39c12;
+}
+
+#podstawy p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Tworca tutaj */
+
+#tworca {
+  border-radius: 10px;
+  background-color: #3498db;
+}
+
+#tworca p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Przyroda tutaj */
+
+#przyroda {
+  border-radius: 10px;
+  background-color: #2ecc71;
+}
+
+#przyroda p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Literatura tutaj */
+
+#literatura {
+  border-radius: 10px;
+  background-color: #1abc9c;
+}
+
+#literatura p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Sztuka tutaj */
+
+#sztuka {
+  border-radius: 10px;
+  background-color: #9b59b6;
+}
+
+#sztuka p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Footer na dole strony */
+
+#footer {
+  border-radius: 10px;
+  background-color: #34495e;
+  height: 36px;
+}
+
+#footer p {
+  color: #ecf0f1;
+  font-size: 16px;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
